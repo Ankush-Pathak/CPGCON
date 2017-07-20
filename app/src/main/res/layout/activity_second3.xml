@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cpgcon.cpgonpccoe.com.cpgcon.SecondActivity3"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="ABOUT DEPARTMENT"
+                android:textSize="40sp"
+                android:id="@+id/abt_departement_title"
+                android:gravity="center"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_above="@+id/imageView"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="false"
+                android:id="@+id/imageView"
+                android:maxHeight="40dp"
+                android:maxWidth="36dp"
+
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/abt_pccoe_title"
+                android:layout_alignEnd="@+id/abt_pccoe_title"
+                android:layout_marginTop="-40dp"
+                android:layout_marginBottom="0dp"
+                android:layout_weight="8.56"
+                android:src="@drawable/department" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/infoDepartement"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/infoDepartement"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-50dp"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:gravity="center" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

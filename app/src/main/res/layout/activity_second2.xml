@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity2"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ABOUT cPGCON"
+                android:textSize="40sp"
+                android:id="@+id/abt_cpgcon_title"
+                android:gravity="center"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_above="@+id/imageView"
+                android:layout_marginTop="20dp"
+                android:padding="0dp"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="false"
+                android:id="@+id/imageView"
+                android:maxHeight="40dp"
+                android:maxWidth="36dp"
+
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/abt_pccoe_title"
+                android:layout_alignEnd="@+id/abt_pccoe_title"
+                android:layout_marginTop="-100dp"
+                android:layout_marginBottom="0dp"
+                android:padding="0dp"
+                android:paddingEnd="0dp"
+                android:paddingStart="0dp"
+                android:src="@drawable/about_cpgcon_logo"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/infoCpgcon"
+                android:id="@+id/infoCpgcon"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-80dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:gravity="center" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

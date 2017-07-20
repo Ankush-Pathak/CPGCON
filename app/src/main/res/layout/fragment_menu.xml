@@ -1,0 +1,112 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cpgcon.cpgonpccoe.com.cpgcon.BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_root_layout"
+        android:orientation="vertical"
+        android:background="#29B6F6">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#29B6F6"
+            android:paddingTop="5dp"
+            android:paddingBottom="15dp"
+            android:id="@+id/fragmen_root_linear_layout"
+            android:layout_alignParentTop="true">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="top|center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:id="@+id/btnTrackPaper"
+                    android:background="@drawable/trackpaper"
+                    android:layout_marginBottom="25dp"
+                    android:gravity="bottom|center_horizontal" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:id="@+id/btnCheckIn"
+                    android:background="@drawable/checkin"
+                    android:layout_marginBottom="25dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:id="@+id/btnCmtLogin"
+                    android:background="@drawable/cmtlogin"
+                    android:layout_marginBottom="25dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="top|center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:id="@+id/btnGuideline"
+                    android:background="@drawable/guidelines"
+                    android:layout_marginBottom="25dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:id="@+id/btnHowToReach"
+                    android:background="@drawable/waymap"
+                    android:layout_marginBottom="25dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:id="@+id/btnAbout"
+                    android:background="@drawable/about"
+                    android:layout_marginBottom="25dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:text="V"
+            android:id="@+id/btnMoveDown"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="#81D4FA"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="11"
+            android:layout_marginTop="-5dp" />
+    </LinearLayout>
+
+
+</FrameLayout>
